@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: Roboto-Light;
+    src: url(Roboto-Light.ttf);
+}
+
+@font-face {
     font-family: Cheque;
     src: url(Cheque-Black.otf);
 }
@@ -22,6 +27,11 @@ body,
 html {
     width: 100%;
     height: 100%;
+}
+
+ul,
+li {
+	list-style-type: none;
 }
 
 a {
@@ -183,14 +193,16 @@ a {
 .subscribe:hover {
 	transition: .2s;
 	background: none;
+	border: 2px solid white;	
 	color: white;
 	font-size: 12px;
+	box-shadow: none;
 }
 
 .help-button {
  	transition: .2s;
 	color: #828080;
-	font-family: Roboto-Black;
+	font-family: Roboto-Regular;
 	font-size: 12px;
 	font-weight: initial;
 	letter-spacing: .6pt;
@@ -203,6 +215,7 @@ a {
 }
 
 .help-button:hover {
+	color: white;
  	transition: .2s;
  	opacity: 1;
 }
@@ -215,7 +228,7 @@ a {
 }
 
 .scrolling {
-	margin-top: 70px;
+	margin-top: 100px;
 }
 
 .scroll-down p {
@@ -224,4 +237,182 @@ a {
 	font-family: Roboto-Regular;
 	font-size: 10px;
 	letter-spacing: 1.5px;
+}
+
+.proccess-holder {
+	width: 100%;
+	height: 1131px;
+}
+
+.proccess {
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.proccess_left {
+	width: 535px;
+	height: 100%;
+	float: left;
+}
+
+.proccess_right {
+	width: 745px;
+	height: 100%;
+	float: right;
+}
+
+.process-title {
+	font-family: Roboto-Regular;
+	font-size: 18px;
+	color: #2e2d2d;
+	letter-spacing: 2pt;
+	margin-left: 145px;
+}
+
+.process-list {
+	width: 100%;
+	height: 750px;
+}
+
+.process-list li {
+	width: 80%;
+	height: 210px;
+	margin-left: 50px;
+}
+
+.poly-1 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.poly-title {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 30px;
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #323030;
+}
+
+.poly-paragraph {
+	margin-left: 85px;
+	margin-top: 10px;
+	font-family: Roboto-Light;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 160%;
+	opacity: .7;
+}
+
+.sketching {
+	margin-top:	65px;
+}
+
+.ui-1 {
+	margin-top: 221px;
+}
+
+.ui-2 {
+	margin-top: -55px;
+	margin-left: -111px;
+}
+
+.screen {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+}
+
+.learn_img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -415px;
+	margin-top: 20px;
+}
+
+.learn_more:focus {outline:0;}
+.learn_more {
+	transition: .1s;
+	width: 239px;
+	height: 58px;
+	background: #e74c3c;
+	border: none;	
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 250px;
+	margin-top: 90px;
+	cursor: pointer;
+}
+
+.btn_text { display: inline-block; vertical-align: middle; transition: .2s; }
+.arrow { display: inline-block; vertical-align: middle; }
+
+.btn_text {
+	color: white;
+	font-family: Roboto-Regular;
+	font-size: 14px;
+	margin-left: 130px;
+}
+
+.arrow { margin-left: 10px; }
+
+.learn_more:hover > .btn_text {
+	color: #e74c3c;
+	transition: .2s;
+	margin-left: 160px;	
+}
+
+.learn_more:hover {
+	transition: .1s;
+	background: none;
+	border: 2px solid #e74c3c;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+}
+
+.learn_more:hover > .arrow {
+	display: none;
+}
+
+.about-holder {
+	width: 100%;
+	height: 790px;
+	background: white;
+}
+
+.about {
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.about_text_a {
+	margin-top: 70px;
+	font-family: Roboto-Light;
+	font-size: 14px;
+	letter-spacing: 1.6px;
+	line-height: 350%;
+}
+
+.illustration {
+	margin-top: 60px;
+}
+
+.about h5 {
+	margin-top: 50px;
+	font-family: Roboto-Light;
+	font-size: 11px;
+	opacity: .6;
+}
+
+.about span {
+	opacity: 1;
+	font-family: Roboto-Regular;
+	font-size: 12px;
 }
