@@ -47,6 +47,7 @@ a {
 	width: 100%;
 	height: 4446px;
 	background: white;
+	overflow-x: hidden;
 }
 
 .header-holder {
@@ -615,3 +616,91 @@ a {
 	transition: .2s;
 	margin-right: -12px;
 }
+
+.premium-holder {
+	width: 100%;
+	height: 338px;
+	background: white;
+	margin-top: 65px;
+}
+
+.premium {
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+}
+
+.offers {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.offers > li {
+	display: inline-block;
+}
+
+.includes {
+	transition: .2s;
+	width: 320px;
+	height: 100%;
+	cursor: pointer;
+}
+
+.includes:hover{
+	transition: .2s;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+}
+
+.include-img, .include-title {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	font-family: Roboto-Regular;
+	letter-spacing: 1.2px;
+	font-size: 14px;
+	line-height: 250%;
+	color: #5b5b5b;
+	margin-left: 15px;
+	margin-top: 50px;
+}
+
+.include-text {
+	color: #5b5b5b;
+	font-family: Roboto-Regular;
+	font-size: 13px;
+	line-height: 300%;
+	letter-spacing: 1.2px;
+	margin-top: 35px;
+	opacity: .7;
+}
+
+.buy-premium {
+	transition: .2s;
+	float: right;
+	width: 103px;
+	height: 51px;
+	background: #e74c3c;
+	border: none;
+	color: white;
+	font-family: Roboto-Black;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	margin-top: 140px;
+}
+
+.buy-premium:hover {
+	transition: .2s;
+	border: 2px solid #e74c3c;
+	border-right: none;
+	background: none;
+	color: #e74c3c;
+}
+
+.buy-premium:focus { outline: none; }
