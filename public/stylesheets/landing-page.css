@@ -603,3 +603,15 @@ a {
 }
 
 .submit:focus { outline: none; }
+
+.blog-arrow {
+	transition: .2s;
+	float: right;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.blog-arrow:hover {
+	transition: .2s;
+	margin-right: -12px;
+}
