@@ -304,7 +304,7 @@ a {
 	font-size: 15px;
 	letter-spacing: 1px;
 	line-height: 160%;
-	opacity: .7;
+	opacity: .5;
 }
 
 .sketching {
@@ -630,7 +630,7 @@ a {
 	margin: 0 auto;
 	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
 	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
 }
 
 .offers {
@@ -704,3 +704,58 @@ a {
 }
 
 .buy-premium:focus { outline: none; }
+
+.designers-holder {
+	width: 100%;
+	height: 202px;
+	background: white;
+	margin-top: 5px;
+}
+
+.designers {
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.deisnger-work {
+	transition: .2s;
+	width: 257px;
+	height: 75px;
+	border: none;
+	background: #e74c3c;
+	color: white;
+	font-family: Roboto-Regular;
+	font-weight: bold;
+	font-size: 13px;
+	letter-spacing: 2px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 15px #e74c3c;
+	cursor: pointer;
+	margin-top: 23px;
+	word-spacing: .5px;
+}
+
+.desinger-sub {
+	font-family: Roboto-Light;
+	font-size: 12px;
+	letter-spacing: 2.4px;
+	color: #a5a0a0;
+	opacity: .6;
+	margin-top: 55px;
+}
+
+.deisnger-work:hover {
+	transition: .2s;
+	color: #e74c3c;
+	border: 2px solid #e74c3c;
+	background: none;
+	box-shadow: none;
+}
+
+.footer-holder {
+	width: 100%;
+	height: 459px;
+	background: #141414;
+}
