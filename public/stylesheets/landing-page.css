@@ -754,6 +754,10 @@ a {
 	box-shadow: none;
 }
 
+.deisnger-work:focus {
+	outline: none;
+}
+
 .footer-holder {
 	width: 100%;
 	height: 459px;
