@@ -737,6 +737,8 @@ a {
 	word-spacing: .5px;
 }
 
+.deisnger-work:focus { outline: none; }
+
 .desinger-sub {
 	font-family: Roboto-Light;
 	font-size: 12px;
@@ -778,8 +780,9 @@ a {
 }
 
 .footer-component {
-	width: 32%;
+	width: auto;
 	height: 100%;
+	margin-left: 80px;
 }
 
 .component-title {
@@ -794,13 +797,13 @@ a {
 	color: white;
 	letter-spacing: 1.5px;
 	font-size: 11px;
-	margin-top: 5px;
+	margin-top: 7px;
 }
 
 .component-body {
 	font-family: Roboto-Light;
 	font-size: 12px;
-	margin-top: 10px;
+	margin-top: 25px;
 	color: white;
 	line-height: 350%;
 	letter-spacing: 1.5px;
@@ -813,6 +816,32 @@ a {
 	color: white;
 }
 
+.component-body a:hover {
+	opacity: .5;
+}
+
 .col-2 {
-	margin-left: 50px;
+	margin-left: 40px;
+}
+
+.copyright {
+	color: white;
+	float: left;
+	margin-top: 25px;
+	font-family: Roboto-Light;
+	font-size: 11px;
+	letter-spacing: 2px;
+	opacity: .4;
+	margin-left: 80px;
+}
+
+.by-me {
+	float: right;
+	margin-left: 0px;	
+	margin-right: 100px;	
+}
+
+.by-me span {
+	color: #e74c3c;
+	font-family: Roboto-Black;
 }
