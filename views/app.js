@@ -1,0 +1,1 @@
+function home() { document.location = "index.html"; }

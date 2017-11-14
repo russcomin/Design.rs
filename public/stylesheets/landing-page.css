@@ -84,6 +84,7 @@ a {
 	font-size: 22px;
 	letter-spacing: 2px;
 	margin-left: 20px;
+	cursor: pointer;
 }
 
 .nav-bar {
