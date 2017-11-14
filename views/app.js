@@ -1,1 +1,1 @@
-function home() { document.location = "index.html"; }
+const home = document.getElementById('home').addEventListener('click',function(){document.location = "index.html";})
